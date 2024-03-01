@@ -1,38 +1,282 @@
-.App {
+
+.logo{
+  color: darkorange;
+  text-decoration: none;
+  font-weight: bold;
+}
+.pages{
+  color: crimson;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+  
+}
+.pages:hover{
+  color: azure;
+}
+
+.sun{
+  text-decoration: none;
+}
+.loginn{
+  text-decoration: none;
+  color: azure;
+}
+
+.waviy{
+  position: relative;
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0, .2));
+  text-align: center;
+ 
+}
+
+.waviy span{
+  position: relative;
+  display: inline-block;
+  font-size: 4rem;
+  color: aqua;
+  text-transform: uppercase;
+  animation: waviy 1s infinite;
+  animation-delay: calc(.1s *var(--i));
+}
+
+@keyframes waviy{
+0%,
+40%,
+100%{
+  transform: translateY(0);
+}
+20%{
+  transform: translate(-20px );
+}
+}
+
+
+/* Login.css */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-form {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+}
+
+h1 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #2ecc71;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+}
+
+/* SignUp.css */
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.signup-form {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+}
+
+.signup-form h1 {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.signup-form label {
+  display: block;
+  margin: 10px 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.signup-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.signup-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+
+/* SignUp.css */
+.signup-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  height: 100vh;
+  background-color: aliceblue;
+}
+
+.signup-form {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+}
+
+.signup-form h1 {
+  text-align: center;
+}
+
+.signup-form label {
+  display: block;
+  margin: 10px 0;
+}
+
+.signup-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+}
+
+.signup-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.nanan{
+  text-decoration: none;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.alert{
+  color: red;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button2{
+  width: 150px;
+  height: 40px;
+  margin-top: 10px;
+  border-radius: 20px;
+  background-color: blue;
+}
+.product-title{
+  position: absolute;
+}
+
+.change{
+  margin-top: 30px;
+  margin-left: 20px;
+  font-size: 16px;
+  height: 30px;
+  width: 40px;
+  background-color: burlywood;
+  
+}
+
+.book{
+display: flex;
+  padding: 10px;
+  margin: 0 0 10px 0;
+  border: 1px solid #ccc;
+  transition: all 0.5s;
+}
+.editt{
+  width: 70px;
+  height: 40px;
+  margin-top: 1px;
+  border-top: 1px;
+  border-radius: 20px;
+  
+}
+
+
+.price{
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+
+
+/* addrss.js */
+
+.address-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.formaddress{
+  display: flex;
+  flex-direction: column;
+}
+
+
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.addresslabel {
+  margin-bottom: 10px;
+}
+
+
+.addressbutton {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+ 
+.addressbutton:hover {
+  background-color: #45a049;
 }
