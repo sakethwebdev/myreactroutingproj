@@ -141,47 +141,6 @@ button {
 
 
 
-/* SignUp.css */
-.signup-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: aliceblue;
-}
-
-.signup-form {
-  border: 1px solid #ccc;
-  padding: 20px;
-  border-radius: 8px;
-  width: 300px;
-}
-
-.signup-form h1 {
-  text-align: center;
-}
-
-.signup-form label {
-  display: block;
-  margin: 10px 0;
-}
-
-.signup-form input {
-  width: 100%;
-  padding: 8px;
-  margin-bottom: 15px;
-}
-
-.signup-form button {
-  width: 100%;
-  padding: 10px;
-  background-color: #4caf50;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
 .nanan{
   text-decoration: none;
   color: white;
