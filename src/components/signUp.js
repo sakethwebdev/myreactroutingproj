@@ -37,7 +37,7 @@ const SignUp = () => {
           value={email}
           onChange={(e) => setEmail(e.target.value)}
         />
-        <strong>Password:</strong>
+        <strong className="required">Password:</strong>
         <input
           type="password"
           placeholder="Enter your password"
