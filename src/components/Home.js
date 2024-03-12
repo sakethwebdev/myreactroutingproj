@@ -85,11 +85,6 @@ export default function Home() {
                 </div>
                 
               </div><br />
-              {/* <Link path="/product/:id" render={({ match }) => {
-          const product = products.find(p => p.id === parseInt(match.params.id));
-          return product ? <ProductDetail product={product} /> : null;
-
-      }} /> */}
             </div>
                
           ))}
