@@ -1,22 +1,12 @@
 import React from 'react'
 import {  NavLink } from 'react-router-dom'
 
-
-
-
-
-
-
 export default function Header() {
-  
-
-  
   return (
     <>
     
     <nav class="navbar navbar-expand-sm navbar-dark bg-secondary">
       <div class="container-fluid">
-      
     <a class="navbar-brand"> <NavLink to="/" className='sun'><img src="./images/logo.jpeg" class="rounded-circle " width={80}/> <a className='logo'>SUNProducts</a> </NavLink> </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
       <span class="navbar-toggler-icon"></span>
