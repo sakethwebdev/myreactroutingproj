@@ -146,6 +146,10 @@ button {
   color: white;
   
 }
+.navbar{
+  background: transparent;
+  backdrop-filter: blur(10px);
+}
 
 .alert{
   color: red;
