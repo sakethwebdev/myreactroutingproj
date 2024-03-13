@@ -192,6 +192,12 @@ display: flex;
   
 }
 
+.container-fluid{
+  background: transparent;
+  backdrop-filter: blur(10px);
+
+}
+
 
 .price{
   margin-top: 10px;
