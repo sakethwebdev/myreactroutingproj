@@ -27,7 +27,7 @@ const Login = () => {
         }
         
       })
-      .catch((err) => alert('Please check the details'));
+      .catch((err) => window.alert('Please check the details'));
   };
 
   const handleForgotPassword = () => {
