@@ -23,7 +23,7 @@ export default function Home() {
     
     < div >
    
-      <div id="demo" class="carousel slide" data-bs-ride="carousel">
+      <div id="demo" class="carousel slide" data-bs-ride="carousel" >
 
 
 <div class="carousel-indicators">
