@@ -27,7 +27,7 @@ const Login = () => {
         }
         
       })
-      .catch((err) => alert('Please check the details'));
+      .catch((err) => window.alert('Please check the details'));
   };
 
   const handleForgotPassword = () => {
@@ -35,9 +35,9 @@ const Login = () => {
   };
 
   return (
-    <div className="login-container">
-      <form className="login-form">
-        <h1>Login</h1>
+    <div className="login-container"  >
+      <form className="login-form" >
+        <h1 >Login</h1>
         <label>Email:</label>
         <input
           type="email"
@@ -45,7 +45,7 @@ const Login = () => {
           value={email}
           onChange={(e) => setEmail(e.target.value)}
         />
-        <label>Password:</label>
+        <label className="required " >Password:</label>
         <input
           type="password"
           placeholder="Enter your password"

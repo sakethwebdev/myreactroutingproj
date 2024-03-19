@@ -61,7 +61,7 @@
 }
 
 .login-form {
-  background-color: #fff;
+  background-color: #ffffffe0;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
@@ -132,7 +132,7 @@ button {
 .signup-form button {
   width: 100%;
   padding: 10px;
-  background-color: #4caf50;
+  background-color: #39a23c;
   color: white;
   border: none;
   border-radius: 4px;
@@ -140,51 +140,15 @@ button {
 }
 
 
-
-/* SignUp.css */
-.signup-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: aliceblue;
-}
-
-.signup-form {
-  border: 1px solid #ccc;
-  padding: 20px;
-  border-radius: 8px;
-  width: 300px;
-}
-
-.signup-form h1 {
-  text-align: center;
-}
-
-.signup-form label {
-  display: block;
-  margin: 10px 0;
-}
-
-.signup-form input {
-  width: 100%;
-  padding: 8px;
-  margin-bottom: 15px;
-}
-
-.signup-form button {
-  width: 100%;
-  padding: 10px;
-  background-color: #4caf50;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
 
 .nanan{
   text-decoration: none;
   color: white;
+  
+}
+.navbar{
+  background: transparent;
+  backdrop-filter: blur(10px);
 }
 
 .alert{
@@ -227,7 +191,6 @@ display: flex;
   border-radius: 20px;
   
 }
-
 
 .price{
   margin-top: 10px;
@@ -273,10 +236,10 @@ select {
   color: white;
   padding: 10px;
   border: none;
-  border-radius: 4px;
+  border-radius: 5px;
   cursor: pointer;
 }
  
 .addressbutton:hover {
-  background-color: #45a049;
+  background-color: #2c8a31;
 }

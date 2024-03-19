@@ -23,21 +23,21 @@ const SignUp = () => {
     <div className="signup-container">
       <form className="signup-form" onSubmit={handleSubmit}>
         <h1>Register</h1>
-        <strong>Name:</strong>
+        <strong >Name:</strong>
         <input
           type="text"
           placeholder="Enter your name"
           value={name}
           onChange={(e) => setName(e.target.value)}
         />
-        <strong>Email:</strong>
+        <strong className="required" >Email:</strong>
         <input
           type="email"
           placeholder="Enter your email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
         />
-        <strong>Password:</strong>
+        <strong className="required">Password:</strong>
         <input
           type="password"
           placeholder="Enter your password"
@@ -45,7 +45,7 @@ const SignUp = () => {
           onChange={(e) => setPassword(e.target.value)}
         />
        
-        <button type="submit" className=''>Register</button>
+        <button type="submit">Register</button>
       </form>
     </div>
   );

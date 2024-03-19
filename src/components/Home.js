@@ -23,7 +23,7 @@ export default function Home() {
     
     < div >
    
-      <div id="demo" class="carousel slide" data-bs-ride="carousel">
+      <div id="demo" class="carousel slide" data-bs-ride="carousel" >
 
 
 <div class="carousel-indicators">
@@ -85,11 +85,6 @@ export default function Home() {
                 </div>
                 
               </div><br />
-              {/* <Link path="/product/:id" render={({ match }) => {
-          const product = products.find(p => p.id === parseInt(match.params.id));
-          return product ? <ProductDetail product={product} /> : null;
-
-      }} /> */}
             </div>
                
           ))}
