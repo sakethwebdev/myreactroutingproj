@@ -56,7 +56,7 @@ const Login = () => {
           <a type="button" onClick={handleForgotPassword}>
             Forgot Password
           </a>
-          <button type="button" onClick={handleLogin}>
+          <button type="button" onClick={handleLogin} >
             Login
           </button>
         </div>
