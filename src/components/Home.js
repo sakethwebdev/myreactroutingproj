@@ -70,7 +70,7 @@ export default function Home() {
       <div className="container mt-3">
         <div className="row">
         {products.map(product => (
-  <div key={product.id} className="col-lg-4 col-md-6 col-sm-12">
+  <div key={product.id} className="col-lg-4 col-md-6 col-sm-12" >
     <div className="card">
     <img src={product.image} width="500px" height="200px" className="card-img-top" alt={product.title} />
 
