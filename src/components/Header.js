@@ -1,5 +1,8 @@
+import { STATES } from 'mongoose'
 import React from 'react'
+import { propTypes } from 'react-bootstrap/esm/Image'
 import {  NavLink } from 'react-router-dom'
+import Product from './ProductDetail'
 
 export default function Header() {
   return (
@@ -30,7 +33,7 @@ export default function Header() {
         Login</NavLink> </a>&emsp;
         
           <NavLink to="/cart" className="btn btn-outline-danger ms-2">
-        <a className="loginn" > Cart   </a> </NavLink>
+        <a className="loginn" > Cart </a> </NavLink>
       </div> 
 
         </div> 
