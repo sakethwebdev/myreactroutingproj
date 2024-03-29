@@ -33,7 +33,7 @@ export default function Header() {
         Login</NavLink> </a>&emsp;
         
           <NavLink to="/cart" className="btn btn-outline-danger ms-2">
-        <a className="loginn" > Cart </a> </NavLink>
+        <a className="loginn" > Cart   </a> </NavLink>
       </div> 
 
         </div> 
