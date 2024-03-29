@@ -30,9 +30,7 @@ const Login = () => {
       .catch((err) => window.alert('Please check the details'));
   };
 
-  const handleForgotPassword = () => {
-    console.log('Forgot Password clicked');
-  };
+ 
 
   return (
     <div className="login-container"  >
@@ -53,9 +51,7 @@ const Login = () => {
           onChange={(e) => setPassword(e.target.value)}
         />
         <div className="forgot-password">
-          <a type="button" onClick={handleForgotPassword}>
-            Forgot Password
-          </a>
+          
           <button type="button" onClick={handleLogin} >
             Login
           </button>
