@@ -17,8 +17,6 @@ export default function Product() {
     getProducts()
     },[])
 
-   
-
         return(
             <>
             <div className='container'><br/><br/>
