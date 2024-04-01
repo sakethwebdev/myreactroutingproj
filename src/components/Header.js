@@ -2,7 +2,7 @@ import { STATES } from 'mongoose'
 import React from 'react'
 import { propTypes } from 'react-bootstrap/esm/Image'
 import {  NavLink } from 'react-router-dom'
-import Product from './ProductDetail'
+
 
 export default function Header() {
   return (
