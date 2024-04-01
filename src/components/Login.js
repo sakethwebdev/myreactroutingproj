@@ -30,8 +30,6 @@ const Login = () => {
       .catch((err) => window.alert('Please check the details'));
   };
 
- 
-
   return (
     <div className="login-container"  >
       <form className="login-form" >
