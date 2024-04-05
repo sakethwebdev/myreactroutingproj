@@ -7,7 +7,6 @@ import {  NavLink } from 'react-router-dom'
 export default function Header() {
   return (
     <>
-    
     <nav class="navbar navbar-expand-sm navbar-dark bg-secondary">
       <div class="container-fluid">
     <a class="navbar-brand"> <NavLink to="/" className='sun'><img src="./images/logo.jpeg" class="rounded-circle " width={80}/> <a className='logo'>SUNProducts</a> </NavLink> </a>
@@ -17,7 +16,6 @@ export default function Header() {
      <div class="collapse navbar-collapse" id="mynavbar">
       <ul class="navbar-nav me-auto">
       <li class="nav-item">
-      
         <NavLink to='/' class="nav-link" className='pages'> <h5>Home &emsp; </h5> </NavLink>
 
         </li>
