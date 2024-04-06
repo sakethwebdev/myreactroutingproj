@@ -18,8 +18,6 @@ const Login = () => {
       .then((result) => {
         console.log(result);
         
-
-
         if (result.data === 'success') {
           dispatch({ type: 'LOGIN', payload: email });
           navigate('/');
