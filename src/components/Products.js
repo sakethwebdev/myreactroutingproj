@@ -4,8 +4,6 @@ import { NavLink } from 'react-router-dom'
 
 
 export default function Products() {
-
-
   const [data, setData] = useState([]);
   const [filter, setFilter] = useState(data);
   const [loading, setloading] = useState(false);
