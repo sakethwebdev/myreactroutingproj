@@ -34,8 +34,6 @@ export default function Home() {
   <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
   <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
 </div>
-
-
 <div class="carousel-inner">
   <div class="carousel-item active">
     <img src="./images/slide1.jpeg" class="d-block w-100" height={"550px"} />
