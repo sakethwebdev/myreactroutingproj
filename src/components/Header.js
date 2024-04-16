@@ -24,12 +24,10 @@ export default function Header() {
      <div className='buttons'>
       <a href='' className='btn btn-outline-danger'>
        <NavLink to='/login' className="loginn">
-        Login</NavLink> </a>&emsp;
-        
+        Login</NavLink> </a>&emsp;       
           <NavLink to="/cart" className="btn btn-outline-danger ms-2">
         <a className="loginn" > Cart   </a> </NavLink>
       </div> 
-
         </div> 
         
     </div>
