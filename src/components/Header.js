@@ -20,7 +20,6 @@ export default function Header() {
        <li>
         <a class="nav-item" className='pages'> <NavLink to='/product' className='pages navlink' > <h5>Products </h5>  </NavLink> </a>
     </li>
-    
      </ul>
      <div className='buttons'>
       <a href='' className='btn btn-outline-danger'>
