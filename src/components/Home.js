@@ -54,8 +54,6 @@ export default function Home() {
     <img src="./images/slide6.jpeg" class="d-block w-100" height={"550px"} />
   </div>
 </div>
-
-
 <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
   <span class="carousel-control-prev-icon"></span>
 </button>
