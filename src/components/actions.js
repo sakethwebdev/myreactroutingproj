@@ -1,4 +1,4 @@
-// actions.js
+
 export const incrementQuantity = (itemId) => ({
     type: 'INCREMENT_QUANTITY',
     payload: itemId,
