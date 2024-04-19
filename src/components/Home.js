@@ -60,9 +60,7 @@ export default function Home() {
 <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
   <span class="carousel-control-next-icon"></span>
 </button>
-</div>
-
-      
+</div>    
       <div className="container mt-3">
         <div className="row">
         {products.map(product => (
