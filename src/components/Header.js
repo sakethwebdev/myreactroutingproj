@@ -28,8 +28,7 @@ export default function Header() {
           <NavLink to="/cart" className="btn btn-outline-danger ms-2">
         <a className="loginn" > Cart   </a> </NavLink>
       </div> 
-        </div> 
-        
+        </div>   
     </div>
     </nav>
 
