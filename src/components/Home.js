@@ -67,7 +67,6 @@ export default function Home() {
   <div key={product.id} className="col-lg-4 col-md-6 col-sm-12" >
     <div className="card">
     <img src={product.image} width="500px" height="200px" className="card-img-top" alt={product.title} />
-
       <div className="card-body">   
                   <h3 className="card-title text-truncate">{product.title}</h3>
                   <p className="card-title text-truncate">ID: {product.id}</p>
