@@ -6,5 +6,4 @@ export const incrementQuantity = (itemId) => ({
   export const decrementQuantity = (itemId) => ({
     type: 'DECREMENT_QUANTITY',
     payload: itemId,
-  });
-  
+  }); 

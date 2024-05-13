@@ -75,8 +75,7 @@ export default function Home() {
                   <p className="card-title text-truncate">{limitDescription(product.description)}</p>
                   {/* {product.description.length > 100 && ( */}
                      <Link to={`/product/${product.id}`} className="btn btn-link">Read More</Link>
-                </div>
-                
+                </div> 
               </div><br />
             </div>
                
