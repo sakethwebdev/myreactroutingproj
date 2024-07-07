@@ -1,5 +1,3 @@
-
-
 import axios from 'axios';
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
@@ -18,8 +16,6 @@ const Login = () => {
       .then((result) => {
         console.log(result);
         
-
-
         if (result.data === 'success') {
           dispatch({ type: 'LOGIN', payload: email });
           navigate('/');
@@ -28,10 +24,6 @@ const Login = () => {
         
       })
       .catch((err) => window.alert('Please check the details'));
-  };
-
-  const handleForgotPassword = () => {
-    console.log('Forgot Password clicked');
   };
 
   return (
@@ -53,10 +45,8 @@ const Login = () => {
           onChange={(e) => setPassword(e.target.value)}
         />
         <div className="forgot-password">
-          <a type="button" onClick={handleForgotPassword}>
-            Forgot Password
-          </a>
-          <button type="button" onClick={handleLogin}>
+          
+          <button type="button" onClick={handleLogin} >
             Login
           </button>
         </div>

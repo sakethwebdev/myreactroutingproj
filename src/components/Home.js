@@ -34,8 +34,6 @@ export default function Home() {
   <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
   <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
 </div>
-
-
 <div class="carousel-inner">
   <div class="carousel-item active">
     <img src="./images/slide1.jpeg" class="d-block w-100" height={"550px"} />
@@ -56,34 +54,27 @@ export default function Home() {
     <img src="./images/slide6.jpeg" class="d-block w-100" height={"550px"} />
   </div>
 </div>
-
-
 <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
   <span class="carousel-control-prev-icon"></span>
 </button>
 <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
   <span class="carousel-control-next-icon"></span>
 </button>
-</div>
-
-      
+</div>    
       <div className="container mt-3">
         <div className="row">
         {products.map(product => (
-  <div key={product.id} className="col-lg-4 col-md-6 col-sm-12">
+  <div key={product.id} className="col-lg-4 col-md-6 col-sm-12" >
     <div className="card">
     <img src={product.image} width="500px" height="200px" className="card-img-top" alt={product.title} />
-
       <div className="card-body">   
                   <h3 className="card-title text-truncate">{product.title}</h3>
                   <p className="card-title text-truncate">ID: {product.id}</p>
                   <p className="card-title text-truncate"><strong>Price: ${product.price}</strong></p>
                  
                   <p className="card-title text-truncate">{limitDescription(product.description)}</p>
-                  {/* {product.description.length > 100 && ( */}
                      <Link to={`/product/${product.id}`} className="btn btn-link">Read More</Link>
-                </div>
-                
+                </div> 
               </div><br />
             </div>
                

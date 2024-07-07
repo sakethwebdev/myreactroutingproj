@@ -42,7 +42,7 @@ const SignUp = () => {
           type="password"
           placeholder="Enter your password"
           value={password}
-          onChange={(e) => setPassword(e.target.value)}
+          onChange={(e) => setPassword(e.target.value) }
         />
        
         <button type="submit">Register</button>
