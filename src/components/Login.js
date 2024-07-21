@@ -15,7 +15,7 @@ const Login = () => {
       .post('http://localhost:3001/login', { email, password })
       .then((result) => {
         console.log(result);
-        
+         
         if (result.data === 'success') {
           dispatch({ type: 'LOGIN', payload: email });
           navigate('/');
@@ -57,5 +57,4 @@ const Login = () => {
     </div>
   );
 };
-
 export default Login;
