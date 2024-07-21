@@ -1,6 +1,5 @@
 import { STATES } from 'mongoose'
 import React from 'react'
-import { propTypes } from 'react-bootstrap/esm/Image'
 import {  NavLink } from 'react-router-dom'
 
 export default function Header() {
