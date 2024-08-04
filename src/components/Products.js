@@ -60,7 +60,6 @@ export default function Products() {
           <button className='btn btn-outline-dark me-2' onClick={() => filterProduct("women's clothing")}>Women</button>
           <button className='btn btn-outline-dark me-2' onClick={() => filterProduct("jewelery")}> Jewelery</button>
           <button className='btn btn-outline-dark me-2' onClick={() => filterProduct("electronics")} >Electronic</button>
-
         </div>
         {filter.map((product) => {
           return (
