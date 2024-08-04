@@ -45,7 +45,6 @@ const Login = () => {
           onChange={(e) => setPassword(e.target.value)}
         />
         <div className="forgot-password">
-          
           <button type="button" onClick={handleLogin} >
             Login
           </button>
