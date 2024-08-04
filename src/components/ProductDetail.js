@@ -34,7 +34,6 @@ export default function Product() {
                      <p className='lead'>{product.description}</p>
         <button className='btn btn-outline-dark' onClick={()=>context.addToCart(product)}>     
                  Add to cart</button>
-                
                  <Link to='/cart' > <button  className='button2' >Go to cart</button></Link> 
                  </div>   
               </div>
